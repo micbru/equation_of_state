@@ -1,0 +1,28 @@
+This folder contains code to numerically do the required sum and integral over n and e^(4/3). I want to make a plot showing the numerical value versus various approximations for different values of N, E, and S.
+
+PYTHON CODE
+
+The main file here is biomass.py, which includes functions to calculate the biomass from state variables numerically and with analytic approximations. This file should be fairly well documented.
+
+The file SampleUsage.ipynb shows how to use this file and the functions in it.
+
+The file PaperPlots.ipynb makes Figures 1 and 2 in the paper.
+
+The file AppendixPlots.ipynb contains plots for the appendix for the paper made using this code.
+
+The file GentryUnitTests.ipynb tests state variable calculations for the Gentry plots to make sure we are getting the same numbers. It uses data from the GentryUnitTests folder, which has two datasets.
+
+DATA
+
+The file data_statevariables.txt includes the observed state variables and biomass.
+
+The file data_biomass.txt includes the observed values, but also the predicted biomass calculated numerically, and calculated analytically with the 0th and first order approximations.
+
+The files biomass_grid_*.txt are the grid of biomass calculations on a grid of E/S versus N/S. These were taking long enough to calculate to be accurate that I wanted to just save them and import them in Plots.ipynb. S is set at 50 to avoid differences with small S that come from a small sum to N/S, and N was set to vary linearly between 10 and 800 while E varied logarithmically from 200 to 300 000. The number of samples is 200 in both directions, which is why these arrays took so long to calculate. The file *_num* is the numerical calculation, and _1 and _2 are the 0th and first order approximations at those points. We can then calculate the percent error at all points in the array.
+
+
+Older files:
+
+The file TestingApprox_Plot.ipynb is the first try at plotting the accuracy of the approximations across N, E, and S values. With a method of plotting decided, I switched to Plots.ipynb.
+
+The file TestCode.ipynb is just some initial testing. This isn't maintained.
