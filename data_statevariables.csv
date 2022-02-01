@@ -1,37 +1,43 @@
-,Site,Plot,Type,Location ,Year,A_ha,S,N,E,B,E_2_3,B_2_3
-0,Point Reyes National Seashore Bishop Pines,Mt. Vision,Temperate forest community,California USA,2012,0.0256,27,1844,2223879.0,123940275.0,2223879.0,929450153.0
-1,Point Reyes National Seashore Bishop Pines,Bayview,Temperate forest community,California USA,2012,0.0256,16,486,1585384.0,38793345.0,1585384.0,195083816.0
-2,Hubbard Brook Experimental Forest,Watershed 6,Temperate trees,New Hampshire USA,2017,13.23,16,10230,55324.3,117597.1,55324.3,177121.1
-3,Kellogg Biological Station ,Deciduous Forest 1,Temperate trees,Michigan USA,2018,0.81 estimated,18,259,11105.48,57231.16,11105.48,134466.7
-4,Kellogg Biological Station ,Deciduous Forest 2,Temperate trees,Michigan USA,2018,0.5 estimated,10,172,8115.755999999999,43636.65,8115.755999999999,104879.6
-5,Kellogg Biological Station ,Deciduous Forest 3,Temperate trees,Michigan USA,2018,0.35 estimated,13,136,2820.0840000000003,10936.14,2820.0840000000003,22266.03
-6,SCBI Large Forest Dynamics Plot,Front Royal,Temperate trees,Virginia USA,2012,25.6,68,29986,11102334.0,153035741.0,11102334.0,592182133.0
-7,CSIRO permament rainforest plots of North Queensland,EP3,Tropical trees,Queensland Australia,1973,0.5,67,506,4074.955,11131.86,4074.955,19292.99
-8,CSIRO permament rainforest plots of North Queensland,EP18,Tropical trees,Queensland Australia,1975,0.5,79,452,3915.177,11332.63,3915.177,20270.64
-9,CSIRO permament rainforest plots of North Queensland,EP19,Tropical trees,Queensland Australia,1977,0.5,64,397,2482.458,6218.057,2482.458,10362.29
-10,CSIRO permament rainforest plots of North Queensland,EP29,Tropical trees,Queensland Australia,1981,0.5,49,487,2634.2509999999997,5684.630999999999,2634.2509999999997,8668.003
-11,CSIRO permament rainforest plots of North Queensland,EP30,Tropical trees,Queensland Australia,1976,0.5,66,552,3737.4120000000003,9528.809000000001,3737.4120000000003,15943.01
-12,CSIRO permament rainforest plots of North Queensland,EP31,Tropical trees,Queensland Australia,1978,0.5,47,236,2544.609,8096.39,2544.609,15116.9
-13,CSIRO permament rainforest plots of North Queensland,EP32,Tropical trees,Queensland Australia,1983,0.5,51,437,1887.3929999999998,4519.255,1887.3929999999998,7595.75
-14,CSIRO permament rainforest plots of North Queensland,EP33,Tropical trees,Queensland Australia,1990,0.5,43,307,4435.325,15840.59,4435.325,32032.39
-15,CSIRO permament rainforest plots of North Queensland,EP34,Tropical trees,Queensland Australia,1984,0.5,59,290,3040.91,9044.354,3040.91,16318.1
-16,CSIRO permament rainforest plots of North Queensland,EP40,Tropical trees,Queensland Australia,1998,0.5,48,477,3859.423,11095.37,3859.423,19941.36
-17,CSIRO permament rainforest plots of North Queensland,EP41,Tropical trees,Queensland Australia,1983,0.5,50,369,2775.138,6739.585,2775.138,10840.03
-18,CSIRO permament rainforest plots of North Queensland,EP42,Tropical trees,Queensland Australia,1977,0.5,58,243,2732.4790000000003,9317.053,2732.4790000000003,18082.58
-19,CSIRO permament rainforest plots of North Queensland,EP43,Tropical trees,Queensland Australia,1984,0.5,59,385,4151.287,12856.02,4151.287,23767.19
-20,CSIRO permament rainforest plots of North Queensland,EP44,Tropical trees,Queensland Australia,1990,0.5,58,443,3779.3909999999996,10811.51,3779.3909999999996,19266.65
-21,RMBL,Belleview,Subalpine meadow flora,Colorado USA,2012,0.0064,31,877,917872.0,17532137.0,917872.0,81474199.0
-22,BCI,CTFS,Tropical trees,Panama,1982,50,307,235338,23944860.0,405723649.0,23944860.0,1913213810.0
-23,Cocoli,CTFS,Tropical trees,Panama,1997,2,171,8290,1717206.0,29636476.0,1717206.0,132037706.0
-24,Sherman,CTFS,Tropical trees,Panama,1997,5.96,225,24453,2325982.0,24937441.0,2325982.0,89063010.0
-25,Pasoh,CTFS,Tropical trees,Malaysia,1985,50,673,55187,2559037.0,26364916.0,2559037.0,96179116.0
-26,UC Santa Cruz,FERC,Temperate forest community,California USA,2006,6,31,8370,10046216.0,223493837.0,10046216.0,1124946208.0
-27,Catuba,Catuba,Tropical trees,Brazil,1999,20,156,1009,17760.1,62397.22,17760.1,122046.5
-28,Harvard Forest,EMS Tower,Temperate trees,"Massachsetts, USA",1993,1.26,15,759,4953.74,10880.94,4953.74,16552.48
-29,Harvard Forest,Lyford mapped tree plot,Temperate trees,"Massachsetts, USA",1969,2.88,24,3696,141101.3,655151.6,141101.3,1474992.0
-30,Traunstein Forest Dynamics Plot ,,Temperate trees,Germany,2016,25,29,15758,425993.7,1679991.0,425993.7,3433256.0
-31,Hawaii,Volcano (200 y),Tropical arthropods,Hawaii USA,1997,,167,1909,83121.76,424260.2,49565.32,424260.2
-32,Hawaii,Lanai (1500 y),Tropical arthropods,Hawaii USA,1997,,156,2253,41210.11,165838.1,26991.72,165838.1
-33,Hawaii,Kohala (150 ky),Tropical arthropods,Hawaii USA,1997,,240,6048,87168.36,339471.8,58945.59,339471.8
-34,Hawaii,Molokai (1.2 My),Tropical arthropods,Hawaii USA,1997,,227,3865,102189.2,413508.2,65915.06,413508.2
-35,Hawaii,Kauai (4My),Tropical arthropods,Hawaii USA,1997,,158,1922,35818.52,137916.7,23893.82,137916.7
+Site,Plot,Type,Location ,Year,A_ha,A_est,S,N,E,B,B_2_3,DBHmin_cm,meas_est,emin_g,Lat,Lon,Elev_m,pBnum,pB0,pB1,lambda_1,lambda_2,beta,Notes1,Notes2,Notes3,Notes4,E_2_3
+Point Reyes National Seashore Bishop Pines,Mt. Vision,Temperate forest community,California USA,2012,0.0256,N,27,1844,2223879.0,123940275.0,929450153.0,0.1,Y,,,,,58374353.04,66863056.31,56486421.65,0.002382471,1.22e-05,0.0023946220000000003,Newman et al,Ecosphere,,,2223879.0
+Point Reyes National Seashore Bishop Pines,Bayview,Temperate forest community,California USA,2012,0.0256,N,16,486,1585384.0,38793345.0,195083816.0,0.1,Y,,,,,49149659.71,60040386.53,47296879.22,0.0061157,1.01e-05,0.006125796,Newman et al,Ecosphere,"duplicate dbh removed, uncored tree added in from appendix",,1585384.0
+Hubbard Brook Experimental Forest,Watershed 6,Temperate trees,New Hampshire USA,2017,13.23,N,16,10230,55324.3,117597.1,177121.1,10.0,N,,43.95,-71.74,,308036.9693,390206.1178,367218.2986,-0.000223822,0.000354812,0.00013099,https://hubbardbrook.org/watersheds/watershed-6,https://hubbardbrook.org/watersheds/watershed-6-zonation-maps,https://portal.edirepository.org/nis/metadataviewer?packageid=knb-lter-hbr.239.1,"had to drop all dbh and associated N, S) below 10 cm because it was collected in a different way",55324.3
+Kellogg Biological Station ,Deciduous Forest 1,Temperate trees,Michigan USA,2018,0.81,Y,18,259,11105.48,57231.16,134466.7,5.425,N,,,,,69451.54909,96127.13725,67709.49438999999,0.01489254,0.001659525,0.016552064,https://portal.edirepository.org/nis/metadataviewer?packageid=knb-lter-kbs.45.54,,,,11105.48
+Kellogg Biological Station ,Deciduous Forest 2,Temperate trees,Michigan USA,2018,0.5,Y,10,172,8115.755999999999,43636.65,104879.6,5.125,N,,,,,53628.42729,70032.56332,51951.57647,0.009766499,0.00125885,0.011025348999999999,https://portal.edirepository.org/nis/metadataviewer?packageid=knb-lter-kbs.45.54,,,,8115.755999999999
+Kellogg Biological Station ,Deciduous Forest 3,Temperate trees,Michigan USA,2018,0.35,Y,13,136,2820.0840000000003,10936.14,22266.03,5.3,N,,,,,12811.131309999999,19057.94934,12634.00651,0.019692565,0.004843366,0.02453593,https://portal.edirepository.org/nis/metadataviewer?packageid=knb-lter-kbs.45.54,,,,2820.0840000000003
+SCBI Large Forest Dynamics Plot,Front Royal,Temperate trees,Virginia USA,2012,25.6,N,68,29986,11102334.0,153035741.0,592182133.0,1.0,N,,,,,293346571.7,308860996.4,285514648.1,0.00027054900000000003,6.14e-06,0.00027669,https://esapubs.org/archive/ecol/E094/195/,https://esapubs.org/archive/ecol/E094/195/metadata.php,,,11102334.0
+CSIRO permanent rainforest plots of North Queensland,EP3,Tropical trees,Queensland Australia,1973,0.5,N,67,506,4074.955,11131.86,19292.99,10.0,N,,,,,12179.098090000001,20776.30535,12527.305059999999,0.021325212000000003,0.018773002,0.040098214,https://data.csiro.au/collections/collection/CI23294,,,,4074.955
+CSIRO permanent rainforest plots of North Queensland,EP18,Tropical trees,Queensland Australia,1975,0.5,N,79,452,3915.177,11332.63,20270.64,10.0,N,,,,,11558.8742,21250.58962,11627.78238,0.036675078,0.022811424,0.059486502999999996,,,,,3915.177
+CSIRO permanent rainforest plots of North Queensland,EP19,Tropical trees,Queensland Australia,1977,0.5,N,64,397,2482.458,6218.057,10362.29,10.0,N,,,,,6471.3721909999995,11925.2018,6730.766866,0.02225859,0.030688702,0.052947292,,,,,2482.458
+CSIRO permanent rainforest plots of North Queensland,EP29,Tropical trees,Queensland Australia,1981,0.5,N,49,487,2634.2509999999997,5684.630999999999,8668.003,10.0,N,,,,,6895.673229999999,11538.53315,7497.785922,0.0046944759999999995,0.022819875,0.027514351,,,,,2634.2509999999997
+CSIRO permanent rainforest plots of North Queensland,EP30,Tropical trees,Queensland Australia,1976,0.5,N,66,552,3737.4120000000003,9528.809000000001,15943.01,10.0,N,,,,,10540.27133,17823.62954,11072.68433,0.014092735,0.020719455,0.03481219,,,,,3737.4120000000003
+CSIRO permanent rainforest plots of North Queensland,EP31,Tropical trees,Queensland Australia,1978,0.5,N,47,236,2544.609,8096.39,15116.9,10.0,N,,,,,8035.359141,15259.19633,7894.395065000001,0.051671542,0.02035858,0.072030121,,,,,2544.609
+CSIRO permanent rainforest plots of North Queensland,EP32,Tropical trees,Queensland Australia,1983,0.5,N,51,437,1887.3929999999998,4519.255,7595.75,10.0,N,,,,,4346.291808,7734.3652870000005,4837.196096,-0.0014905220000000002,0.035162883,0.033672361,,,,,1887.3929999999998
+CSIRO permanent rainforest plots of North Queensland,EP33,Tropical trees,Queensland Australia,1990,0.5,N,43,307,4435.325,15840.59,32032.39,10.0,N,,,,,16563.74761,27643.189110000003,16376.336619999998,0.032962143,0.010415846999999999,0.04337799,,,,,4435.325
+CSIRO permanent rainforest plots of North Queensland,EP34,Tropical trees,Queensland Australia,1984,0.5,N,59,290,3040.91,9044.354,16318.1,10.3,N,,,,,9468.287177,18157.38367,9300.726175,0.052901660999999996,0.021447447999999997,0.07434910900000001,,,,,3040.91
+CSIRO permanent rainforest plots of North Queensland,EP40,Tropical trees,Queensland Australia,1998,0.5,N,48,477,3859.423,11095.37,19941.36,10.0,N,,,,,12066.05323,19333.48135,12562.58524,0.013328093999999999,0.01419101,0.027519104,,,,,3859.423
+CSIRO permanent rainforest plots of North Queensland,EP41,Tropical trees,Queensland Australia,1983,0.5,N,50,369,2775.138,6739.585,10840.03,10.0,N,,,,,8031.567004,13862.9714,8299.423224,0.020630516,0.020780188,0.041410704,,,,,2775.138
+CSIRO permanent rainforest plots of North Queensland,EP42,Tropical trees,Queensland Australia,1977,0.5,N,58,243,2732.4790000000003,9317.053,18082.58,10.0,N,,,,,8535.921832,17454.61574,8227.767708,0.071337709,0.023298048,0.09463575699999999,,,,,2732.4790000000003
+CSIRO permanent rainforest plots of North Queensland,EP43,Tropical trees,Queensland Australia,1984,0.5,N,59,385,4151.287,12856.02,23767.19,10.0,N,,,,,13648.055380000002,23736.88599,13643.57284,0.033590352999999996,0.015665296000000002,0.049255649000000006,,,,,4151.287
+CSIRO permanent rainforest plots of North Queensland,EP44,Tropical trees,Queensland Australia,1990,0.5,N,58,443,3779.3909999999996,10811.51,19266.65,10.0,N,,,,,11588.96857,19621.50198,11871.71142,0.02208886,0.017384054,0.039472914,,,,,3779.3909999999996
+RMBL,Belleview,Subalpine meadow flora,Colorado USA,2012,0.0064,N,31,877,917872.0,17532137.0,81474199.0,,N,,,,,19289969.07,23933890.61,18597710.67,0.007066508000000001,3.3799999999999995e-05,0.007100314,,,,,917872.0
+BCI,CTFS,Tropical trees,Panama,1982,50.0,N,307,235338,23944860.0,405723649.0,1913213810.0,10.0,N,,,,,,,,,,,http://ctfs.si.edu/webatlas/datasets/bci/,,,,23944860.0
+Cocoli,CTFS,Tropical trees,Panama,1997,2.0,N,171,8290,1717206.0,29636476.0,132037706.0,1.0,N,,,,,,,,,,,http://ctfs.si.edu/webatlas/datasets/cocoli/,http://ctfs.si.edu/webatlas/datasets/bci/Terms%20and%20conditions.htm,https://datadryad.org/stash/dataset/doi:10.15146/5xcp-0d46,,1717206.0
+Sherman,CTFS,Tropical trees,Panama,1997,5.96,N,225,24453,2325982.0,24937441.0,89063010.0,1.0,N,,,,,,,,,,,http://ctfs.si.edu/webatlas/datasets/sherman/,,,,2325982.0
+UC Santa Cruz,FERC,Temperate forest community,California USA,2006,6.0,N,31,8370,10046216.0,223493837.0,1124946208.0,6.0,N,,,,,,,,,,,https://forestgeo.si.edu/sites/north-america/university-california-santa-cruz,,,,10046216.0
+Catuba,Catuba,Tropical trees,Brazil,1999,20.0,N,156,1009,17760.1,62397.22,122046.5,10.0,N,,,,,,,,,,,https://daac.ornl.gov/VEGETATION/guides/Forest_Inventory_Acre_Brazil.html,,,,17760.1
+Harvard Forest,EMS Tower,Temperate trees,Massachusetts USA,1993,1.26,N,15,759,4953.74,10880.94,16552.48,9.6,N,,42.54,-72.17,340.0,,,,,,,https://harvardforest1.fas.harvard.edu/exist/apps/datasets/showData.html?id=hf069,,,,4953.74
+Harvard Forest,Lyford mapped tree plot,Temperate trees,Massachusetts USA,1969,2.88,N,24,3696,141101.3,655151.6,1474992.0,2.54,N,,42.53,-72.18,345.0,,,,,,,https://harvardforest1.fas.harvard.edu/exist/apps/datasets/showData.html?id=hf032,,,,141101.3
+Traunstein Forest Dynamics Plot ,CTFS,Temperate trees,Germany,2016,25.0,N,29,15758,425993.7,1679991.0,3433256.0,5.0,N,,47.935,12.6664,600.0,,,,,,,https://forestgeo.si.edu/sites/europe/traunstein,,,,425993.7
+Atlantic Forest restinga,6L1,Tropical trees,Brazil,2015,0.00125,N,15,22,102.7092,224.3061,345.9933,4.997465,N,,,,,,,,,,,,,,,102.7092
+Atlantic Forest restinga,6L3,Tropical trees,Brazil,2015,0.00125,N,14,20,169.6116,568.2694,1099.453,5.411268,N,,,,,,,,,,,,,,,169.6116
+Atlantic Forest restinga,5L1,Tropical trees,Brazil,2015,0.00125,N,13,25,135.3977,371.2233,655.3729,5.061127,N,,,,,,,,,,,,,,,135.3977
+Atlantic Forest restinga,5L2,Tropical trees,Brazil,2015,0.00125,N,13,20,195.7322,627.4894,1170.254,5.092958,N,,,,,,,,,,,,,,,195.7322
+Atlantic Forest restinga,5L3,Tropical trees,Brazil,2015,0.00125,N,15,25,70.73095,110.6893,141.1976,5.252113,N,,,,,,,,,,,,,,,70.73095
+Atlantic Forest restinga,5L5,Tropical trees,Brazil,2015,0.00125,N,18,27,329.9215,1383.537,3035.4309999999996,5.092958,N,,,,,,,,,,,,,,,329.9215
+Ordway-Swisher Forest Dynamics Plot,unburned,Temperate trees,,2019,17.6,N,11,7714,2185400.0,18386158.0,54821716.0,1.0,N,,,,,,,,,,,,,,,2185400.0
+Hawaii,Volcano (200 y),Tropical arthropods,Hawaii USA,1997,,N,167,1909,83121.76,424260.2,424260.2,,N,0.0056,,,,,,,,,,,,,,49565.32
+Hawaii,Lanai (1500 y),Tropical arthropods,Hawaii USA,1997,,N,156,2253,41210.11,165838.1,165838.1,,N,0.0056,,,,,,,,,,,,,,26991.72
+Hawaii,Kohala (150 ky),Tropical arthropods,Hawaii USA,1997,,N,240,6048,87168.36,339471.8,339471.8,,N,0.0056,,,,,,,,,,,,,,58945.59
+Hawaii,Molokai (1.2 My),Tropical arthropods,Hawaii USA,1997,,N,227,3865,102189.2,413508.2,413508.2,,N,0.0056,,,,,,,,,,,,,,65915.06
+Hawaii,Kauai (4My),Tropical arthropods,Hawaii USA,1997,,N,158,1922,35818.52,137916.7,137916.7,,N,0.0056,,,,,,,,,,,,,,23893.82

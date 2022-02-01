@@ -1,4 +1,4 @@
-This file contains code for the paper "An Equation of State for Ecology" (Harte, Newman, Brush, Umemura)
+This file contains code for the paper "An Equation of State Unifies Diversity, Productivity, Abundance and Biomass" (Harte, Brush, Newman, Umemura)
 
 It contains both jupyter notebook and python versions of each code.
 
@@ -6,12 +6,13 @@ The file biomass.py is the main important file, and includes functions to calcul
 
 The jupyter notebooks are:
 PaperPlots.ipynb - Plots Figures 1 and 2 in the paper.
-AppendixPlots.ipynb - Plots the figure in Methods and Materials, showing the goodness of the approximation.
+AppendixPlots.ipynb - Plots the figure in the SI, showing the goodness of the approximation.
 AppendixPlots_Pairwise.ipynb - Plots pairwise comparison of state variables for second appendix.
 AppendixPlots_23.ipynb - Plots 2/3 law comparison plots for the third appendix.
 SampleUsage.ipynb - Shows an example of how to use biomass.py more broadly.
+SNE3D.ipynb - A jupyter notebook for plotting the 3D animation of the S, N, and E state variables.
 
-The python files are:
+The python files are: (NOTE: These are incorrect as of Feb 1, 2022)
 calc_biomass.py - Calculates the biomass for the included dataset and outputs data_biomass.txt
 make_plots.py - Produces Fig 1 and 2
 make_figS1.py - Produces Fig S1
@@ -23,4 +24,4 @@ The raw data file is:
 data_statevariables.txt - Contains just the raw data and metadata. The 3/4 scaling is assumed, so E and B are with that scaling. Note that for the plants, B is calculated differently for 2/3 and 3/4 scaling, while for the animals, E is calculated differently. This is because the biomass of the arthropods was measured directly, whereas for the plants the metabolic rate was obtained from empirical scaling of the dbh.
 data_biomass.txt - Includes the observed values, but also the predicted biomass calculated numerically, and calculated analytically with the 0th and first order approximations (columns are pBnum, pB0, pB1). Also includes the calculated lambdas as lambda_1, lambda_2, and beta.
 
-Finally, the folder TestCode contains initial code from testing with a subset of the data, and includes it's own README.
+Finally, the folder TestCode contains initial code from testing with a subset of the data, and includes it's own README. The folder ExtraCode includes code for figures that were considered for the SI. (Not on github).
