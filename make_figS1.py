@@ -15,7 +15,7 @@
 # 
 # We here choose $S=50$. Initially, I picked $S=1$, however this doesn't work very well because the sum for the first constraint goes to N, but it is equal to N/S. So we want $S>1$ to make these not the same. So that this error in summation doesn't have a large effect, we need $S$ $\approx$ 30 at the smallest, but closer to $S=50$. Data points with $S$ less than this are marked with an asterix.
 
-# In[4]:
+# In[11]:
 
 
 import pandas as pd
@@ -23,14 +23,15 @@ import numpy as np
 import biomass as bm
 
 import matplotlib.pyplot as plt
-# In[5]:
+
+# In[12]:
 
 
 # Read in the data to overlay
 data = pd.read_csv('data_statevariables.csv')
 
 
-# In[6]:
+# In[13]:
 
 
 # Define ns and en along with the number in each direction.
@@ -38,14 +39,14 @@ data = pd.read_csv('data_statevariables.csv')
 num_ns = 40
 num_en = 40
 # Log spacing since we will use a log log plot
-ns = np.logspace(np.log10(4),np.log10(800),num=num_ns)
-en = np.logspace(np.log10(4),np.log10(3500),num=num_en)
+ns = np.logspace(np.log10(1),np.log10(800),num=num_ns)
+en = np.logspace(np.log10(2),np.log10(3500),num=num_en)
 
 # Set s also
 s0=50 
 
 
-# In[8]:
+# In[15]:
 
 
 # Numerical
@@ -65,7 +66,8 @@ for i,e in enumerate(en):
         biomass_2[i,j] = bm.biomass_approx(s,order=1)
 
 
-# In[9]:
+
+# In[17]:
 
 
 # Get percent differences. Note that in doing this, the S dependence drops out. Since really we care about B/S
@@ -78,7 +80,7 @@ max_dev_1 = np.nanmax(np.abs(biomass_1_percent))
 max_dev_2 = np.nanmax(np.abs(biomass_2_percent))
 
 
-# In[10]:
+# In[18]:
 
 
 # Get percent values to plot
@@ -86,7 +88,7 @@ z_bm1 = -np.log10(np.abs(biomass_1_percent))
 z_bm2 = -np.log10(np.abs(biomass_2_percent))
 
 
-# In[11]:
+# In[19]:
 
 
 # Plotting
@@ -129,8 +131,6 @@ for ax in axs:
 axs[0].set_title('Zeroth order')
 axs[1].set_title('First order')
 
-# Save this as just logcontours.pdf to differentiate it from the other files. 
-# It should be the same as some of the other figures though.
 fig.savefig('Figures/FigS1.pdf',bbox_inches='tight')
 
 

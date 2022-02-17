@@ -3,7 +3,7 @@
 
 # This file will make the pairwise comparison plots for the relevant appendix.
 
-# In[3]:
+# In[1]:
 
 
 import numpy as np
@@ -12,15 +12,14 @@ import biomass as bm
 from scipy.stats import linregress
 import matplotlib.pyplot as plt
 
-
-# In[4]:
+# In[2]:
 
 
 # Import the data
 data = pd.read_csv('data_statevariables.csv')
 
 
-# In[5]:
+# In[3]:
 
 
 # Now add a column for predicted numerical biomass data
@@ -32,7 +31,7 @@ for index, row in data.iterrows():
 
 # # General plot setup
 
-# In[7]:
+# In[5]:
 
 
 # Choose color scheme
@@ -48,6 +47,9 @@ stype = data['Type'].unique()
 mlist = ['s','^','D','o','X']
 
 
+# # Pairwise amongst state variables
+
+# In[27]:
 
 
 def plot(x,y,displayl=False):
@@ -102,7 +104,7 @@ def plot(x,y,displayl=False):
     fig.savefig('Figures/figS_{}.pdf'.format(x+y),bbox_inches='tight')
 
 
-# In[44]:
+# In[28]:
 
 
 plot('N','S')

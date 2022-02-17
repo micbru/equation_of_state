@@ -3,7 +3,7 @@
 
 # This file will make Figure S3 and S4 for the appendix comparing alternative scaling laws using state variable data from data_statevariables.txt and the biomass prediction code biomass.py
 
-# In[6]:
+# In[1]:
 
 
 import numpy as np
@@ -12,8 +12,17 @@ import biomass as bm
 from scipy.stats import linregress
 import matplotlib.pyplot as plt
 
+
+# In[2]:
+
+
 # Import the data
 data = pd.read_csv('data_statevariables.csv')
+
+
+# In[3]:
+
+
 # Now add a column for predicted numerical biomass data
 data['pBnum_2_3'] = np.zeros(len(data))
 # Iterate through each row and append the biomass information
@@ -22,6 +31,10 @@ for index, row in data.iterrows():
     dtemp = {'S': row['S'], 'N': row['N'], 'E': row['E_2_3']}
     data.loc[index,'pBnum_2_3'] = bm.biomass(dtemp,power=3/2)
 
+
+# # General plot setup
+
+# In[5]:
 
 
 # Choose color scheme
@@ -37,6 +50,10 @@ stype = data['Type'].unique()
 mlist = ['s','^','D','o','X']
 
 
+# # Alternative scaling
+
+# In[7]:
+
 
 # Figure S2
 fig,ax = plt.subplots(figsize=(4,4))
@@ -48,7 +65,11 @@ ydata = np.log(data['B_2_3'])
 # Loop through each site type to put a different marker
 for m,s in zip(mlist,stype):
     inds = data['Type']==s
-    ax.scatter(xdata[inds],ydata[inds],marker=m,c=np.log(data['S'][inds]),cmap=cm,norm=norm,edgecolor='0.3')
+    im = ax.scatter(xdata[inds],ydata[inds],marker=m,c=np.log(data['S'][inds]),cmap=cm,norm=norm,edgecolor='0.3')
+
+# Colorbar
+cax = fig.add_axes([0.94, 0.28, 0.05, 0.43])
+fig.colorbar(im, cax = cax,label='ln(S)')
 
 # Set range
 ymin = np.floor(np.min(ydata))
@@ -62,13 +83,14 @@ ax.set_ylim(rmin,rmax)
 ax.set_xlim(rmin,rmax)
 
 # Labels
-ax.set_xlabel('ln(predicted biomass)')
-ax.set_ylabel('ln(observed biomass)')
+ax.set_xlabel('ln(Predicted B)')
+ax.set_ylabel('ln(Observed B)')
 
 # Add in R^2 value from regression
 lin = linregress(xdata,ydata)
 xlin = np.linspace(xmin,xmax)
-ax.annotate(r'$R^2 = {:.3f}$'.format(lin[2]**2),(0.73,0.17),xycoords='figure fraction')
+ax.annotate(r'$R^2 = {:.3f}$'.format(lin[2]**2),(0.64,0.17),xycoords='figure fraction')
+# Note: Without colorbar, location is 0.73, 0.17.
 
 # Legend
 # Plot a bunch of empty points. Not sure if this is the best way, but it's how I'm doing it!
@@ -87,7 +109,7 @@ ax.legend([leg[s] for s in lcodes],lcodes,prop={"size":7.3})#,frameon=False)#bor
 fig.savefig('Figures/figS3.pdf',bbox_inches='tight')
 
 
-# In[16]:
+# In[8]:
 
 
 # Figure S3
@@ -99,7 +121,11 @@ ydata = data['E_2_3']/data['B_2_3']**(2/3)
 # Loop through each site type to put a different marker
 for m,s in zip(mlist,stype):
     inds = data['Type']==s
-    ax.scatter(xdata[inds],ydata[inds],marker=m,c=np.log(data['S'][inds]),cmap=cm,norm=norm,edgecolor='0.3')
+    im = ax.scatter(xdata[inds],ydata[inds],marker=m,c=np.log(data['S'][inds]),cmap=cm,norm=norm,edgecolor='0.3')
+    
+# Colorbar
+cax = fig.add_axes([0.94, 0.28, 0.05, 0.43])
+fig.colorbar(im, cax = cax,label='ln(S)')
 
 # Set range
 ymin = np.floor(np.min(ydata))
@@ -119,7 +145,8 @@ ax.set_ylabel(r'Observed ratio $E:B^{2/3}$')
 # Add in R^2 value from regression
 lin = linregress(xdata,ydata)
 xlin = np.linspace(xmin,xmax)
-ax.annotate(r'$R^2 = {:.3f}$'.format(lin[2]**2),(0.18,0.82),xycoords='figure fraction')
+ax.annotate(r'$R^2 = {:.3f}$'.format(lin[2]**2),(0.64,0.42),xycoords='figure fraction')
+# Previous location wo colorbar was (0.18,0.82)
 
 # Legend
 # Plot a bunch of empty points. Not sure if this is the best way, but it's how I'm doing it!
