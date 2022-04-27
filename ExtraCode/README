@@ -1,0 +1,11 @@
+This folder again just has code I didn't end up using for the paper but that was quite useful.
+
+BiomassDiversityRelationship_InitialPlots.ipynb is a way to try to plot the 4D equation of state in a single plot. This has a lot of test code and isn't super clean.
+
+BiomassContours.ipynb is a clean version of my favourite plots from the above. It includes plots of contours of constant B/S for E/S and E/S, with a few different panels for different values of S.
+
+Calc_richness.ipynb was an attempt to predict species richness from the other variables, rather than biomass. The log likelihood contours in S are very broad, so ti turns out this doesn't work very well. That isn't surprising becaus S has the weakest dependence in the model.
+
+SNE3D_old.ipynb has 3d plots of S, N, and E, in addition to the movie in the main folder.
+
+The two _old csvs are the state variable data from before we added more.
