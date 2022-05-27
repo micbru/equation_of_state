@@ -4,6 +4,10 @@ BiomassDiversityRelationship_InitialPlots.ipynb is a way to try to plot the 4D e
 
 BiomassContours.ipynb is a clean version of my favourite plots from the above. It includes plots of contours of constant B/S for E/S and E/S, with a few different panels for different values of S.
 
+BiomassContours_Pairwise.ipynb is a version that was to try to implement the above plots for each pairwise state variable, but it wasn't clear that this was going to result in good visuals.
+
+EoverB34.ipynb plots how E/B^(3/4) varies with both S and N with a few different fixed values. This is intended to end up in the main text to explain what the relationship actually looks like.
+
 Calc_richness.ipynb was an attempt to predict species richness from the other variables, rather than biomass. The log likelihood contours in S are very broad, so ti turns out this doesn't work very well. That isn't surprising becaus S has the weakest dependence in the model.
 
 SNE3D_old.ipynb has 3d plots of S, N, and E, in addition to the movie in the main folder.
