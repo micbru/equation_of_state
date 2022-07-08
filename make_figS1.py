@@ -90,7 +90,6 @@ z_bm2 = -np.log10(np.abs(biomass_2_percent))
 
 # In[19]:
 
-
 # Plotting
 fig,axs = plt.subplots(1,2,sharey=True,figsize=(8,3))
 
@@ -132,7 +131,6 @@ axs[0].set_title('Zeroth order')
 axs[1].set_title('First order')
 
 fig.savefig('Figures/FigS1.pdf',bbox_inches='tight')
-
 
 # In[ ]:
 

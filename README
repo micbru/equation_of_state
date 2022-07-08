@@ -5,25 +5,24 @@ It contains both jupyter notebook and python versions of each code.
 The file biomass.py is the main important file, and includes functions to calculate the biomass from state variables numerically and with analytic approximations. This file should be fairly well documented.
 
 The jupyter notebooks are:
-PaperPlots.ipynb - Plots Figures 1 and 2 in the paper.
+PaperPlots.ipynb - Plots Figures 1,2 and 3 in the paper.
 AppendixPlots.ipynb - Plots the figure in the SI, showing the goodness of the approximation.
 AppendixPlots_Pairwise.ipynb - Plots pairwise comparison of state variables for second appendix.
 AppendixPlots_23.ipynb - Plots 2/3 law comparison plots for the third appendix.
-SampleUsage.ipynb - Shows an example of how to use biomass.py more broadly.
-SNE3D.ipynb - A jupyter notebook for plotting the 3D animation of the S, N, and E state variables.
+SampleUsage.ipynb - Shows an example of how to use biomass.py more broadly and has some basic analysis of the data.
+SNE3D.ipynb - A jupyter notebook for plotting the 3D animation of the S, N, and E state variablesm including as a supplementary video.
 
 The python files are:
 biomass.py - Contains all functions to calculate the biomass from state variables
 richness.py - Contains all functions to calculate richness from state variables
-calc_biomass.py - Calculates the biomass for the included dataset and outputs data_biomass.txt
-make_plots.py - Produces Fig 1 and 2
+make_plots.py - Produces Fig 1, 2, and 3
 make_figS1.py - Produces Fig S1
 make_fig_pair.py - Produces pairwise plots
 make_figS34.py - Produces Figs S3 and S4
 Figures are output to the Figures subfolder.
 
 The raw data file is:
-data_statevariables.txt - Contains the raw data and metadata. The 3/4 scaling is assumed, so E and B are with that scaling. Note that for the plants, B is calculated differently for 2/3 and 3/4 scaling, while for the animals, E is calculated differently. This is because the biomass of the arthropods was measured directly, whereas for the plants the metabolic rate was obtained from empirical scaling of plant size (ie. dbh).
-data_biomass.txt - Includes the observed values, but also the predicted biomass calculated numerically, and calculated analytically with the 0th and first order approximations (columns are pBnum, pB0, pB1). Also includes the calculated lambdas as lambda_1, lambda_2, and beta.
+data_statevariables_only.txt - Contains the raw data and metadata. The 3/4 scaling is assumed, so E and B are with that scaling. For plants, the metabolic rate was obtained from empirical scaling of plant size (ie. dbh), and then the scaling relationship was used to calculate B, ie. m ~ e^(4/3). For the arthropods biomass was measured directly, and so E is derived using this scaling, ie. e ~ m^(3/4).  The 2/3 scaling is also included in separate columns. Note that because of what is measured directly, for the plants B is different for 2/3 and 3/4 scaling, while for the animals E is different. This file also includes the minimum DBH for plant data and the minimum metabolic rate for arthropod data.
+data_statevariables.txt - Includes the observed values, but also the predicted biomass calculated numerically, and calculated analytically with the 0th and first order approximations (columns are pBnum, pB0, pB1). Also includes the calculated lambdas as lambda_1, lambda_2, and beta. This is the relevant file for plotting.
 
-Finally, the folder TestCode contains initial code from testing with a subset of the data, and includes it's own README. The folder ExtraCode includes code for figures that were considered for the SI. (Not on github).
+Finally, the folder ExtraCode contains initial code from testing with a subset of the data, and includes it's own README.
