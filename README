@@ -1,4 +1,4 @@
-This file contains code for the paper "An Equation of State Unifies Diversity, Productivity, Abundance and Biomass" (Harte, Brush, Newman, Umemura). Please cite this paper if using any of this code, and please cite the data DOI from FigShare if using the data.
+This file contains code for the paper "An Equation of State Unifies Diversity, Productivity, Abundance and Biomass" (Harte, Brush, Newman, Umemura). Please cite this paper if using any of this code, and please cite the data DOI from FigShare if using the data (10.6084/m9.figshare.20288595).
 
 It contains both jupyter notebook and python versions of each code.
 
@@ -22,7 +22,7 @@ make_figS34.py - Produces Figs S3 and S4
 Figures are output to the Figures subfolder.
 
 The raw data files are:
-data_statevariables_only.txt - Contains the raw data and metadata. The 3/4 scaling is assumed, so E and B are with that scaling. For plants, the metabolic rate was obtained from empirical scaling of plant size (ie. dbh), and then the scaling relationship was used to calculate B, ie. m ~ e^(4/3). For the arthropods biomass was measured directly, and so E is derived using this scaling, ie. e ~ m^(3/4).  The 2/3 scaling is also included in separate columns. Note that because of what is measured directly, for the plants B is different for 2/3 and 3/4 scaling, while for the animals E is different. This file also includes the minimum DBH for plant data and the minimum metabolic rate for arthropod data.
-data_statevariables.txt - Includes the observed values, but also the predicted biomass calculated numerically, and calculated analytically with the 0th and first order approximations (columns are pBnum, pB0, pB1). Also includes the calculated lambdas as lambda_1, lambda_2, and beta. This is the relevant file for plotting.
+data_statevariables_only.csv - Contains the raw data and metadata. The 3/4 scaling is assumed, so E and B are with that scaling. For plants, the metabolic rate was obtained from empirical scaling of plant size (ie. dbh), and then the scaling relationship was used to calculate B, ie. m ~ e^(4/3). For the arthropods biomass was measured directly, and so E is derived using this scaling, ie. e ~ m^(3/4).  The 2/3 scaling is also included in separate columns. Note that because of what is measured directly, for the plants B is different for 2/3 and 3/4 scaling, while for the animals E is different. This file also includes the minimum DBH for plant data and the minimum metabolic rate for arthropod data.
+data_statevariables.csv - Includes the observed values, but also the predicted biomass calculated numerically, and calculated analytically with the 0th and first order approximations (columns are pBnum, pB0, pB1). Also includes the calculated lambdas as lambda_1, lambda_2, and beta. This is the relevant file for plotting.
 
 Finally, the folder ExtraCode contains initial code from testing with a subset of the data, and includes it's own README.
