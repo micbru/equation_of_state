@@ -1,4 +1,5 @@
-This file contains code for the paper "An Equation of State Unifies Diversity, Productivity, Abundance and Biomass" (Harte, Brush, Newman, Umemura). Please cite this paper if using any of this code, and please cite the data DOI from FigShare if using the data (10.6084/m9.figshare.20288595).
+This file contains code for the paper "An equation of state unifies diversity, productivity, abundance and biomass", Harte, Brush, Newman, and Umemura, Communications Biology, doi: 10.1038/s42003-022-03817-8.
+Please cite this paper if using any of this code, and please cite the data DOI from FigShare if using the data (10.6084/m9.figshare.20288595).
 
 It contains both jupyter notebook and python versions of each code.
 
